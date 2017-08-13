@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+<classpathentry kind="src" output="bin" path="src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Acapela\bin" sourcepath="E:\furhatsdk\addon\Acapela\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Cereproc\bin" sourcepath="E:\furhatsdk\addon\Cereproc\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Cereproc\lib\x64\cerevoice_eng.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Face\bin" sourcepath="E:\furhatsdk\addon\Face\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Furhat\bin" sourcepath="E:\furhatsdk\addon\Furhat\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Furhat\lib\x64\jasypt-1.9.2.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Google\bin" sourcepath="E:\furhatsdk\addon\Google\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Google\lib\google-speech.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Intel\bin" sourcepath="E:\furhatsdk\addon\Intel\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Intel\lib\FurhatOS.Net.RealSense.j4n.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Microsoft\bin" sourcepath="E:\furhatsdk\addon\Microsoft\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Microsoft\lib\jni4net.j-0.8.8.0.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Microsoft\lib\IrisTK.Net.Speech.j4n.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Microsoft\lib\IrisTK.Net.Kinect.j4n.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Microsoft\lib\IrisTK.Net.Kinect2.j4n.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\Nuance9\bin" sourcepath="E:\furhatsdk\addon\Nuance9\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\addon\NuanceCloud\bin" sourcepath="E:\furhatsdk\addon\NuanceCloud\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\app\Calltry\bin" sourcepath="E:\furhatsdk\app\Calltry\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\app\Chinesetry\bin" sourcepath="E:\furhatsdk\app\Chinesetry\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\app\DoubleLanguage\bin" sourcepath="E:\furhatsdk\app\DoubleLanguage\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\app\Hotel\bin" sourcepath="E:\furhatsdk\app\Hotel\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\app\Myhotel\bin" sourcepath="E:\furhatsdk\app\Myhotel\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\app\Myhotel\lib\owm-japis-2.5.0.3.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\app\Myhotelcn\bin" sourcepath="E:\furhatsdk\app\Myhotelcn\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\app\RepeatTry\bin" sourcepath="E:\furhatsdk\app\RepeatTry\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\bin" sourcepath="E:\furhatsdk\core\src"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\commons.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\platform.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\jnaerator-0.9.5.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\jportaudio.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\json.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\jetty.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\js-14.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\JNativeHook.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\docking-frames-core.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\docking-frames-common.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\freemarker.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\hat.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\turbojpeg.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\batik-gui-util-1.8.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\xuggle-xuggler-5.4.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\webcam-capture-0.3.10.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\bridj-0.6.2.jar"/>
+<classpathentry kind="lib" path="E:\furhatsdk\core\lib\furhat-skill.jar"/>
+</classpath>

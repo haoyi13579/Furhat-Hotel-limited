@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar xml:lang="en-US" version="1.0"
+	xmlns="http://www.w3.org/2001/06/grammar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/06/grammar http://www.iristk.net/xml/srgs.xsd" tag-format="semantics/1.0">
+
+  <rule id="languagesetting" scope="public">
+  	<one-of>
+  		<item>
+  			<one-of>
+  				<item>English</item>
+  				<item>英语</item>
+  				<item>英文</item>
+  			</one-of>
+  			<tag>out.english=1</tag>
+  		</item>
+  		<item>
+  			<one-of>
+  				<item>Chinese</item>
+  				<item>Mandarin</item>
+  				<item>中文</item>
+  				<item>普通话</item>
+  			</one-of>
+  			<tag>out.chinese=1</tag>
+  		</item>	
+  	</one-of>
+  </rule>
+
+  
+</grammar>
