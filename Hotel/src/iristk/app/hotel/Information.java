@@ -418,18 +418,50 @@ public class Information {
 
 				num=num+text.charAt(i);
 			}			
-		}		
+		}
+			
+		for(int p=0;p<text.length();p++) {
+			if(text.charAt(p) == '零'||text.charAt(p) == '〇') {
+				roomstring=roomstring+"0 ";
+			}
+			if(text.charAt(p) == '一'||text.charAt(p) == '壹') {
+				roomstring=roomstring+"1 ";
+			}
+			if(text.charAt(p) == '二'||text.charAt(p) == '贰') {
+				roomstring=roomstring+"2 ";
+			}
+			if(text.charAt(p) == '三'||text.charAt(p) == '叁') {
+				roomstring=roomstring+"3 ";
+			}
+			if(text.charAt(p) == '四'||text.charAt(p) == '肆') {
+				roomstring=roomstring+"4 ";
+			}
+			if(text.charAt(p) == '五') {
+				roomstring=roomstring+"5 ";
+			}
+			if(text.charAt(p) == '六') {
+				roomstring=roomstring+"6 ";
+			}
+			if(text.charAt(p) == '七') {
+				roomstring=roomstring+"7 ";
+			}
+			if(text.charAt(p) == '八') {
+				roomstring=roomstring+"8 ";
+			}
+			if(text.charAt(p) == '九') {
+				roomstring=roomstring+"9 ";
+			}
+		}
 		
-
 		
 		for(int j=0;j<num.length();j++) {
 			roomstring += num.charAt(j)+" ";
 		}
 		
-		if(num == ""){
+		if(roomstring == ""){
 			s="Sorry";
 		}else{
-			s = "您的房间号是："+roomstring+"对吗？";
+			s = "您的房间号是 ："+roomstring+"，对吗？";
 		}
 		
 		return s;
@@ -479,6 +511,54 @@ public class Information {
 			}
 			if(list[p].equals("nine")) {
 				roomnum=roomnum+"9";
+			}
+		}
+		
+		return roomnum;
+	}
+	
+	
+	public String getcallroomnum_CN(String text) {
+		String roomnum="";
+		
+		for(int i=0;i<text.length();i++) {
+			if(text.charAt(i)>=48 && text.charAt(i)<=57) {
+
+				roomnum=roomnum+text.charAt(i);
+			}			
+		}
+		
+
+		for(int p=0;p<text.length();p++) {
+			if(text.charAt(p) == '零'||text.charAt(p) == '〇') {
+				roomnum=roomnum+"0 ";
+			}
+			if(text.charAt(p) == '一'||text.charAt(p) == '壹') {
+				roomnum=roomnum+"1 ";
+			}
+			if(text.charAt(p) == '二'||text.charAt(p) == '贰') {
+				roomnum=roomnum+"2 ";
+			}
+			if(text.charAt(p) == '三'||text.charAt(p) == '叁') {
+				roomnum=roomnum+"3 ";
+			}
+			if(text.charAt(p) == '四'||text.charAt(p) == '肆') {
+				roomnum=roomnum+"4 ";
+			}
+			if(text.charAt(p) == '五') {
+				roomnum=roomnum+"5 ";
+			}
+			if(text.charAt(p) == '六') {
+				roomnum=roomnum+"6 ";
+			}
+			if(text.charAt(p) == '七') {
+				roomnum=roomnum+"7 ";
+			}
+			if(text.charAt(p) == '八') {
+				roomnum=roomnum+"8 ";
+			}
+			if(text.charAt(p) == '九') {
+				roomnum=roomnum+"9 ";
 			}
 		}
 		

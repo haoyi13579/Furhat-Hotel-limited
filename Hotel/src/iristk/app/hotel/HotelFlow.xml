@@ -55,12 +55,14 @@
 		
 	<state id="Start" extends="Dialog">
 		<onentry>
-			<agent:prompt>What can I do for you?</agent:prompt>
-			<!--  <agent:say>At present, I can help you with:
+			
+			<agent:prompt>At present, I can help you with:
 						tourist attractions recommendation,
-						transportation to tourist attractions, and
-						room location query
-			</agent:say>  -->
+						transportation information, 
+						room location query,
+						Weather query, and morning call service
+			</agent:prompt>
+			<agent:prompt>What can I do for you?</agent:prompt>
 		</onentry>
 		<onevent name="sense.user.speak**" cond="event?:sem:attractions">
 			<!-- <exec>questions.adjoin(asRecord(event:sem:questions))</exec> -->
@@ -110,7 +112,7 @@
 		<onentry>
 			<agent:say>Goodbye.</agent:say>
 			<agent:say>Please leave the detection area</agent:say>
-			<wait msec="2000"/>
+			<wait msec="4000"/>
 			<goto state="Idle"/>
 		</onentry>
 	</state>
@@ -394,13 +396,11 @@
 
 
 	<state id="Start_CN" extends="Dialog_CN">
-		<onentry>
+		<onentry>			
+			<agent:prompt>现在我可以帮您的有： 
+				景点推荐，交通查询，房间位置查询，天气查询以及叫醒服务预定。
+			</agent:prompt>
 			<agent:prompt>请问有什么可以帮到您的？</agent:prompt>
-			<!--  <agent:say>At present, I can help you with:
-						tourist attractions recommendation,
-						transportation to tourist attractions, and
-						room location query
-			</agent:say>  -->
 		</onentry>
 		<onevent name="sense.user.speak**" cond="event?:sem:attractions">
 			<!-- <exec>questions.adjoin(asRecord(event:sem:questions))</exec> -->

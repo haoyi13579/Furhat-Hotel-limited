@@ -28,9 +28,12 @@
   <rule id="attraction" scope="public">
   	<one-of>
 		<item>景点</item>
+		<item>景点查询</item>
 		<item>旅游景点</item>
-		<item>好玩</item>
-		<item>观光</item>  	
+		<item>旅游景点查询</item>
+		<item>景点推荐</item>
+		<item>目的地</item>  
+		<item>目的地推荐</item>	
   	</one-of>
   	<tag>out.attractions=1</tag>
   </rule>
@@ -52,6 +55,7 @@
   		<item>历史类</item>
   		<item>文化</item>
   		<item>人文</item>
+  		<item>人文景点</item>
   	</one-of>
   	<tag>out.historical=1</tag>
   </rule>
@@ -60,8 +64,6 @@
   	<one-of>
   		<item>热门景点</item>
   		<item>热门</item>
-  		<item>受欢迎</item>
-  		<item>最好</item>
   	</one-of>
   	<tag>out.popular=1</tag>
   </rule>
@@ -80,6 +82,7 @@
 			<one-of>
 				<item>格拉斯哥大教堂</item>
 				<item>教堂</item>
+				<item>大教堂</item>
 			</one-of>
 			<tag>out.attrname="Glasgow Cathedral"</tag>
 		</item>
@@ -98,7 +101,8 @@
 				<item>艺术博物馆</item>
 				<item>艺术</item>
 				<item>葛罗夫博物馆</item>
-				<item>凯文夫博物馆</item>
+				<item>葛罗夫艺术博物馆</item>
+				<item>凯文夫艺术博物馆</item>
 			</one-of>
 			<tag>out.attrname="Kelvingrove Art Gallery and Museum"</tag>
 		</item>
@@ -123,8 +127,9 @@
   <rule id="transportation" scope="public">
   	<one-of>
   		<item>交通</item>
-  		<item>公交</item>
-  		<item>地铁</item>
+  		<item>交通方式</item>
+  		<item>交通查询</item>
+  		<item>交通方式查询</item>
   		<item>出行方式</item>
   	</one-of>
   	<tag>out.transportation=1</tag>
@@ -135,7 +140,8 @@
   <rule id="room" scope="public">
   	<one-of>
   		<item>房间</item>
-  		<item>住</item>
+  		<item>房间位置</item>
+  		<item>房间位置查询</item>
   	</one-of>
   	<tag>out.rooms=1</tag>
   </rule>
@@ -158,8 +164,10 @@
   <rule id="weather" scope="public">
   	<one-of>
   		<item>天气</item>
+  		<item>天气查询</item>
   		<item>温度</item>
   		<item>天怎么样</item>
+  		<item>天气怎么样</item>
   		<item>气温</item>
   		<item>几度</item>
   		<item>多少度</item>
@@ -179,27 +187,14 @@
   				<item>叫早服务</item>
   				<item>叫醒</item>
   				<item>叫醒服务</item>
+  				<item>叫醒服务预定</item>
+  				<item>叫醒服务设定</item>
   			</one-of>
   			<tag>out.call=1</tag>
   		</item>
   	</one-of>
   </rule>
   
-  <rule id="clock" scope="public">
-  	<one-of>
-  		<item>整</item>
-  		<item>点整</item>
-  	</one-of>
-  	<tag>out.clock=1</tag>
-  </rule>
-  
-  <rule id="half" scope="public">
-  	<one-of>
-  		<item>半</item>
-  		<item>点半</item>
-  	</one-of>
-  	<tag>out.half=1</tag>
-  </rule>
   
   <rule id="number" scope="public">
   	<one-of>
